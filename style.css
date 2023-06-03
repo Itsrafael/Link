@@ -1,0 +1,91 @@
+
+
+body{
+    background-color: #222831; 
+    font-family: 'Roboto', sans-serif; 
+}
+
+div{
+    background-color: #EEEEEE; /*Cor de fundo*/
+    width: 400px; /*Largura*/
+    text-align: center; /*Local do texto*/
+    padding: 40px; /* Espaço interno*/
+    box-sizing: border-box; /*Não deixa o padding interferir na largura/altura*/
+
+    margin: auto;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+img{
+    margin-bottom: 30px; 
+    border-width: 5px; 
+    border-color: #222831; 
+    border-style: solid; 
+    border-radius: 50%; /*arredondamento*/
+}
+
+h1{
+    color: #393E46; 
+   font-size: 32px; 
+   margin: 0%; 
+}
+    
+h2{
+    color: #222831; 
+font-size: 20px; 
+margin: 0%; 
+}
+
+p{
+    color: 666666;
+    font-size: 16px;
+}
+
+ul{
+    margin: 0 0 30px 0;
+    padding: 0px;
+    list-style-type: none;
+}
+
+li{
+    margin-bottom: 3px;
+}
+
+li a{
+    background-color: #393E46;
+    color: #FFFFFF;
+    display: block;
+    border-radius: 5px;
+    text-decoration: none;
+    padding-top:10px ;
+    padding-bottom: 10px;
+    transition: 0.5s;
+}
+
+
+/*ao passar o mouse*/
+li :hover{
+    background-color: #000000;
+    color:#80848a
+}
+
+#copy{
+    color: #222831;
+}
+
+
+#copy:hover{
+    font-style: italic;
+}
+
+@media(max-width: 540px){
+
+div{
+    width: 300px;
+    padding: 15px;
+}
+
+}
+
